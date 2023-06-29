@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">E-Report</string>
+    <string name="user_res">Masukan Username</string>
+    <string name="pass_res">Masukan Password</string>
+    <string name="welcome">Berikan Kemudahan di Setiap Permasalahan</string>
+</resources>
