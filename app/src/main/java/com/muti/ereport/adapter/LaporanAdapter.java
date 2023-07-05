@@ -67,7 +67,7 @@ public class LaporanAdapter extends RecyclerView.Adapter<LaporanAdapter.LaporanL
             String nama = sharedPreferences.getString("nama", "default_value2");
             namaTextView.setText(nama);
             ktpTextView.setText("NIK: "+laporan.getNik());
-            alamatTextView.setText("Telepon : "+laporan.getAlamatLaporan());
+            alamatTextView.setText("Alamat : "+laporan.getAlamatLaporan());
             tanggalPelaporanTextView.setText(laporan.getTanggalPelaporan());
             topikPelaporanTextView.setText("Topik : "+laporan.getTopikPelaporan());
             deskripsiPelaporanTextView.setText("Deskripsi : "+laporan.getDeskripsiPelaporan());
